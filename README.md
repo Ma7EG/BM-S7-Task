@@ -1,6 +1,7 @@
 # BM-S7-Task
 -- Task of Session 7 BM
 # Mafia Game Webpage
+https://github.com/Ma7EG/BM-S7-Task/assets/73550267/f798ce2b-082d-4129-80fd-74c7aabcfd0b
 
 ## Description
 
