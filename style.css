@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor : white;
+}
+body {
+    min-height: 100vh;
+    background: url(assets/MAFIA.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    color: black; 
+    text-decoration: none; 
+    width: 100px;
+}
+
+.navbar a {
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    color: var(--maincolor);
+    text-decoration: none;
+    transition: color 1s ease;
+}
+
+.navbar a:hover {
+    border-top: 5px solid red;
+    color: red;
+}
+
+.info {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 90px;
+    width: 40%;
+    color: var(--maincolor);
+}
+
+.Ch_B {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    margin-left: 300px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    transition: color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
+}
+
+.Ch_B:hover {
+    
+    background-color: red;
+}
+
+.video-container {
+    opacity: 0.7;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 100px); 
+}
+.about_us {
+    font-size: large;
+    width: 50%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: var(--maincolor); 
+}
+h2 {
+    
+    transition: 0.5s ease;
+}
+h2:hover{
+    border-bottom: 2px solid red;
+    margin-bottom: 10px;
+}
+
+
+
+
+.mafia-characters {
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    width: 80%; 
+    max-width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.mafia-characters caption {
+    color: var(--maincolor);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+}
+.mafia-characters caption:hover {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mafia-characters th, .mafia-characters td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.mafia-characters th {
+    background-color: #f2f2f2;
+}
+
+.mafia-characters tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
